@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ImageGenerator from './ImageGenerator';
+import CarClass from './LifeCycle/CarClass';
+import CarFunctional from './LifeCycle/CarFunctional';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ImageGenerator />
+    <CarClass />
+    <CarFunctional />
   </React.StrictMode>
 );
 
