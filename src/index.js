@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import MainComponent from './NavBar/MainComponent';
 import ImageGenerator from './ImageGenerator';
 import CarClass from './LifeCycle/CarClass';
 import CarFunctional from './LifeCycle/CarFunctional';
@@ -11,6 +12,7 @@ root.render(
     <ImageGenerator />
     <CarClass />
     <CarFunctional />
+    <MainComponent />
   </React.StrictMode>
 );
 
