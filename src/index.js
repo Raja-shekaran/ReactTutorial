@@ -5,6 +5,7 @@ import MainComponent from './NavBar/MainComponent';
 import ImageGenerator from './ImageGenerator';
 import CarClass from './LifeCycle/CarClass';
 import CarFunctional from './LifeCycle/CarFunctional';
+import { ApiIntegration } from './charles/ApiIntegration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <CarClass />
     <CarFunctional />
     <MainComponent />
+    <ApiIntegration />
   </React.StrictMode>
 );
 
