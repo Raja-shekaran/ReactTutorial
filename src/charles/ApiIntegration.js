@@ -48,3 +48,5 @@ export const ApiIntegration = () => {
     </div>
   );
 }
+
+export default ApiIntegration
